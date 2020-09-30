@@ -30,4 +30,5 @@ Scenario 3 - Reporting (Optional)
 For visibility of test runs we would like to see a reporting function within your framework that reports on test runs.
 Once all test scenarios are finished please add instructions to the README file on how to execute these tests and any other useful information.
 
-Please zip up this project and send as an attachment.
+You can either upload this project to GitHub which is preferred or we will also accept this zipped up and sent as an attachment.
+
