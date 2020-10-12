@@ -19,9 +19,11 @@ There is no requirement for you to actually place the bet in the below scenario,
 Task:
 
 Create a BDD automation framework to address the below scenarios;
+
 Scenario 1 -Darts
 
 As a PokerStars Sports user I want to navigate to https://www.pokerstarssports.uk and navigate to a Darts event. Once I have arrived at a darts event I would then like to verify that a `GET` request was made to the request URL.
+
 Scenario 2 - Betslip
 
 As a PokerStars Sports user I want to add an outcome to the bet slip for any sport and verify that the outcome is added to the bet slip. I would then like to remove this from the bet slip and verify that the bet slip is now empty.
