@@ -20,9 +20,10 @@ Task:
 
 Create a BDD automation framework to address the below scenarios;
 
+
 Scenario 1 -Darts
 
-As a PokerStars Sports user I want to navigate to https://www.pokerstarssports.uk and navigate to a Darts event. Once I have arrived at a darts event I would then like to verify that a `GET` request was made to the request URL.
+As a PokerStars Sports user I want to navigate to https://www.pokerstarssports.uk and navigate to a Darts event. Once I have arrived at a darts event I would then like to verify that a `GET` request was made to 
 
 Scenario 2 - Betslip
 
@@ -34,3 +35,17 @@ Once all test scenarios are finished please add instructions to the README file 
 
 You can either upload this project to GitHub which is preferred or we will also accept this zipped up and sent as an attachment.
 
+---------------------------------------------------------------------------------------------------#To execute the tests 
+
+npm run test or npm run cypress
+
+Note:
+I couldn't able to test and run my tests which I have written due to the non accessible domain(UK) sports section
+
+I have completed one scenario by using by getting the locators over the email as because of time difference it is not easy to get hold of any of my firends after working hours.
+
+I have also installed mochawesome dependecies so after every run there should be a report generated.
+
+The reports will be under cypress/reports folder in json format, It'll be created automatically once the report is complied after the test run. the naming convention for the reports is date format which is defined in config file(cypress.json)
+
+There will be another folder for screenshots

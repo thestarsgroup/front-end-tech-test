@@ -1,0 +1,31 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://www.pokerstarssports.uk",
+    "video": true,
+    "viewportWidth": 1600,
+    "viewportHeight": 1200,
+    "defaultCommandTimeout": 10000,
+    "numTestsKeptInMemory": 1,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true,
+            "VideoUploadOnPasses": false,
+            "timestamp": "ddmmyyyy_HHMMss"
+        }
+    },
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "darts": {
+        "url": "https://sports.pokerstarssports.uk/sportsbook/v1/api/getCompetitionEvents?competitionId=17806817&marketTypes=DARTS%3AFT%3AML&includeOutrights=false&channelId=6&locale=en-gb&siteId=32768",
+        "dartsID": "17806817",
+        "D_sport": "DARTS"
+    }
+}
