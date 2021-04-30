@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "test": "npm run cypress"
+    "test": "npm run cypress",
+    "test:headless": "npx cypress run --headless --browser chrome"
   },
   "repository": {
     "type": "git",

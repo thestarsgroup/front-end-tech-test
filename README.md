@@ -37,7 +37,16 @@ You can either upload this project to GitHub which is preferred or we will also 
 
 ---------------------------------------------------------------------------------------------------#To execute the tests 
 
-npm run test or npm run cypress
+With browser: npm run test
+Headless: npx run test:headless
+
+These two commands are defined in the package.json under scripts, we can also add more variants of running the test. for example for each spec/feature individually
+
+For the reporting I have added the mochawesome reporting which will get the report in html format, We can change the format to Json in cypress.json
+
+I prefer to use the cypress dashboard especially when the tests are running on pipeline
+
+ISSUE: Just faced one issue "Cypress detected that an uncaught error was thrown from a cross origin script." Found the alternative that is to ignore the error on the application and proceed with the cypress test execution 
 
 Note:
 I couldn't able to test and run my tests which I have written due to the non accessible domain(UK) sports section

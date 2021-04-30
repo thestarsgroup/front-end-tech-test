@@ -1,5 +1,5 @@
 {
-    "testFiles": "**/*.feature",
+    "testFiles": "**/*.{feature,features}",
     "baseUrl": "https://www.pokerstarssports.uk",
     "video": true,
     "viewportWidth": 1600,
@@ -13,8 +13,8 @@
             "reportDir": "cypress/reports",
             "quite": true,
             "overwrite": false,
-            "html": false,
-            "json": true,
+            "html": true,
+            "json": false,
             "VideoUploadOnPasses": false,
             "timestamp": "ddmmyyyy_HHMMss"
         }
@@ -23,9 +23,8 @@
         "runMode": 2,
         "openMode": 0
     },
-    "darts": {
-        "url": "https://sports.pokerstarssports.uk/sportsbook/v1/api/getCompetitionEvents?competitionId=17806817&marketTypes=DARTS%3AFT%3AML&includeOutrights=false&channelId=6&locale=en-gb&siteId=32768",
-        "dartsID": "17806817",
-        "D_sport": "DARTS"
+    "footy": {
+        "url": "https://idcta.api.bbc.co.uk/idcta/init?policy=notification&buttonColour=white&ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fsport%2Ffootball"
+        
     }
 }
