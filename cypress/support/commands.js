@@ -18,8 +18,7 @@ Cypress.Commands.add('getLink', { prevSubject: 'optional' }, (subject) => {
         cy.get('a').its('href');
     }
 })
-
-
+  
 Cypress.Commands.add("confirm", () => {
 
     cy.request(Cypress.config('footy').url)

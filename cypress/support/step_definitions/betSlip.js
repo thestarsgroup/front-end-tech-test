@@ -17,8 +17,8 @@ Given('I want to add an outcome to the bet slip for any sport', () => {
         //Make sure that frame 
         cy.get('.market-content')
         .should('be.visible')
-        cy.get('#event-schedule-selection-3844697493').click()//.within()
-        .should('be.visible')
+        // cy.get('#event-schedule-selection-3844697493').click()//.within()
+        // .should('be.visible')
 
         });
 
