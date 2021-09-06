@@ -18,4 +18,4 @@ Create a simple test framework using NPM, Cypress and Cucumber to automate a sel
 - https://www.npmjs.com/package/cypress-cucumber-preprocessor
 
 
-After completing the tasks, please update the README.md file to explain how to run your tests, including any information you think is relevant, interesting or useful. The preferred delivery method for this project is via Github but we will also accept a zipped file sent as an email attachment.
+After completing the tasks, please update the README.md file with your scenarios from Task 1 and instructions on how to run your tests, include any information you think is relevant, interesting or useful. The preferred delivery method for this project is via Github but we will also accept a zipped file sent as an email attachment.
