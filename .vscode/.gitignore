@@ -1,0 +1,6 @@
+tsconfig.json
+output
+node_modules
+package.lock.json
+reports
+assets

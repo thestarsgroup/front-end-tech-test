@@ -1,0 +1,37 @@
+{
+  "name": "front-end-tech-test",
+  "version": "1.0.0",
+  "description": "SEIT Technical test",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "npm run cypress",
+    "test:headless": "npx cypress run --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thestarsgroup/front-end-tech-test.git"
+  },
+  "author": "Praduman Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thestarsgroup/front-end-tech-test/issues"
+  },
+  "homepage": "https://github.com/thestarsgroup/front-end-tech-test#readme",
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.2"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  }
+}

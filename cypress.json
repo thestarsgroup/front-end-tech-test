@@ -1,0 +1,30 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "https://www.pokerstarssports.uk",
+    "video": true,
+    "viewportWidth": 1600,
+    "viewportHeight": 1200,
+    "defaultCommandTimeout": 10000,
+    "numTestsKeptInMemory": 1,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": false,
+            "VideoUploadOnPasses": false,
+            "timestamp": "ddmmyyyy_HHMMss"
+        }
+    },
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "footy": {
+        "url": "https://idcta.api.bbc.co.uk/idcta/init?policy=notification&buttonColour=white&ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fsport%2Ffootball"
+        
+    }
+}
