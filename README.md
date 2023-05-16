@@ -52,7 +52,7 @@ WebdriverIO framework for automation using Cucumber and Javascript
 #### Pre-requisites
 ```
 1. node js installed in the system
-2. 'npm init -y' and 'npm inti wdio' run to initiate Project and wdio 
+2. 'npm init -y' and 'npm init wdio' run to initiate Project and wdio 
 3. IDE(Visual studio Code) used with cucumber and gherkin plugins
 ```
 
