@@ -73,8 +73,7 @@ WebdriverIO framework for automation using Cucumber and Javascript
 ### Test Observations
 ```
 1. Sometimes while manually testing or running automation scripts the application gives 404 error - invalid session, specially while choosing sports and events and the page load delay is significant 
-Eg: below url response :
-
+Eg: below url response:
 https://www.pokerstars.uk/sports/web/meta/event-type/?eventTypeSlug=tennis&eventTypeId=2  error: 404
 
 ```
