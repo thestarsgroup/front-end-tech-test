@@ -20,6 +20,7 @@ After completing the tasks, please update the README.md file with your scenarios
 
 ## Task 1 Solution
 ```
+Gherkin Scenarios to cover behavior of home page:
 1. Verify that the website loads without any errors.
 2. Verify the Login button on home page opens up the login prompt popup. 
 3. Verify that the join button on home page opens up the popup prompt.
