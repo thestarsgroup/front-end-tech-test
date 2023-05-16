@@ -34,6 +34,82 @@ Gherkin Scenarios to cover behavior of home page:
 11. Verify that the social media links on the home page footer are functional and lead to the correct social media pages.
 12. Verify that the website is responsive and works well on different devices and screen sizes.
 13. Verify that the website is accessible and meets WCAG (Web Content Accessibility Guidelines) standards.
+
+
+Scenario: Verify that the home page loads without any errors
+Given I am on the home page
+When I wait for the page to load
+Then the page should load without any errors
+
+Scenario: Verify the Login button on home page opens up the login prompt popup 
+Given I am on the home page
+When I click the login button
+Then the login prompt should be displayed
+
+Scenario: Verify that the join button on home page opens up the popup prompt
+Given I am on the home page
+When I click the join button
+Then the join prompt should be displayed
+
+Scenario: Verify that all links on the home page are working correctly
+Given I am on the home page
+Then I check all links on the page are working
+
+Scenario: Verify that the website is secure and uses HTTPS.
+Given I am on the home page
+Then the website should use HTTPS
+
+Scenario: Verify that the website displays the correct sports and events
+Given I am on the home page
+When I verify that the sports and events are displayed
+Then the chosen sports and events should be displayed on In play section
+
+Scenario: Verify that the betting slip is updating correctly on placing bets on Football sports and delete option is working 
+Given I am on the home page 
+When I select Football from the sports list
+And I select first match from the event list
+And I select The Draw as from the Match odds of betting options
+And I enter a stake of 10 in the betting slip
+Then the bet slip should display 1 bet
+And the bet slip should display The Draw betting option
+And the bet slip should display 10 stake
+When I click on the Delete button 
+Then the bet slip should be empty
+
+
+Scenario: Verify that the odds and betting options are displayed correctly for events
+Given I am on the home page
+When I verify that the odds and betting options are displayed
+Then the odds and betting options should be displayed correctly
+
+Scenario: Verify that the main navigation menu items are functioning as expected
+Given I am on the home page
+When I click on each navigation menu item
+Then the corresponding page should load
+
+
+Scenario: Verify that the promotions and offers advertised on the home page are accurate and working
+Given I am on the home page
+When I verify that the promotions and offers are displayed
+Then the promotions and offers should be accurate and up-to-date
+
+Scenario: Verify that the social media links on the home page footer are functional and lead to the correct social media pages
+Given I am on the home page
+When I click on each social media link
+Then the corresponding social media page should load
+
+Scenario: Verify that the website is responsive and works well on different devices and screen sizes
+Given I am on the home page
+When I test the website on different screen sizes
+Then the website should display correctly on all screen sizes
+
+
+Scenario: Verify that the website is accessible and meets WCAG (Web Content Accessibility Guidelines) standards
+Given I am on the PokerStars Sports website
+When I check the website for accessibility using an accessibility testing tool
+Then the website should meet WCAG standards
+
+
 ```
 
 ## Task 2 Solution
